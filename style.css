@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+:root{
+    --pale-blue: hsl(225, 100%, 94%);
+    --bright-blue:hsl(245, 75%, 52%);
+    --very-pale-blue:hsl(225, 100%, 98%);
+    --desaturated-blue:hsl(224, 23%, 55%);
+    --dark-blue:hsl(223, 47%, 23%);
+    --font-red-hat-display:'Red Hat Display', sans-serif;
+}
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--very-pale-blue);
+    display: flex;
+    justify-content: center;
+
+}
+.all{
+    margin-top: 65px;
+    position: absolute;
+    width:  350px;
+    height: 560px;
+    vertical-align: middle;
+    border-radius: 1rem;
+    font-family: var(--font-red-hat-display);
+}
+a{
+    outline: none;
+}
+.hero{
+    border-top-left-radius:1rem ;
+    border-top-right-radius:1rem ;
+
+    object-fit: fill;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.change{
+ color: #382AE1; 
+
+font-weight: 400;
+}
+
+.text{
+    text-align: center;
+    background-color: white;
+    padding: 30px;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    
+}
+h4{
+    color: var(--dark-blue);
+    font-weight: 900;
+    font-family: var(--font-red-hat-display);
+}
+p{
+    color: var(--desaturated-blue);
+}
+.music{
+
+    height: 50px;
+    width: auto;
+}
+.sub-container{
+    padding-top:1rem ;
+    display: flex;
+    justify-content: space-between;
+}
+.sub-container p{
+    margin-top: 0;
+}
+#annualPlan{
+    color: var(--dark-blue);
+}
+.type-price{
+    margin: 0;
+    padding: 0;
+}
+button{
+    margin: 1.5rem;
+    cursor: pointer;
+    height: 2rem;
+    width: 250px;
+    padding: 0;
+    border-radius: 5px;
+    border: none;
+    background-color: #382AE1;
+    color: white;
+    font-weight: 700;
+}
+
+.cancel{
+    margin: 1.3rem;
+    color: var(--desaturated-blue);
+    outline: 0px solid transparent;
+    border: none;
+}
